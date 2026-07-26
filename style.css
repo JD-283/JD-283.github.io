@@ -1,0 +1,400 @@
+.tarjeta {
+    text-align: left;
+    padding: 30px;
+    background: linear-gradient(to bottom,
+            rgba(255, 255, 255, 0.2) 14%,
+            rgba(255, 255, 255, 0.9) 33%,
+            rgba(255, 255, 255, 1) 45%);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.marco {
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    background: rgb(255, 255, 255), ;
+    backdrop-filter: blur(20px);
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.foto {
+    text-align: center;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);
+}
+
+.cFotos {
+    text-align: center;
+}
+
+.icono {
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+    border-radius: 50%;
+
+
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    font-family: FiraCode Nerd Font Propo;
+    background-image: url("recursos/fondo2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.parrafo {
+    font-family: FiraCode Nerd Font Propo;
+    text-align: left;
+    color: #000000;
+    font-size: 15px;
+    font-weight: lighter;
+
+}
+
+.tabs {
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+}
+
+.tab {
+    flex: 1;
+    padding: 12px 0;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    color: #000000;
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+.tarjetaportafolio {
+    font-family: FiraCode Nerd Font Propo;
+    text-align: left;
+    padding: 30px;
+    background: linear-gradient(to bottom,
+            rgba(255, 255, 255, 0.2) 0%,
+            rgba(255, 255, 255, 0.2) 20%,
+            rgba(255, 255, 255, 0.2) 40%);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.rowportafolio {
+    height: 400px;
+    width: 100%;
+    text-align: center;
+    justify-content: space-around;
+    display: flex;
+}
+
+.rowperfil {
+    height: auto;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    
+}
+
+.destacado {
+    height: auto;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+.perfil {
+    height: auto;
+    width: 45%;
+}
+
+.marcoportafolio {
+    text-align: center;
+    padding: 10px;
+    width: 1400px;
+    height: auto;
+    background: rgb(255, 255, 255), ;
+    backdrop-filter: blur(20px);
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.tarjetaproyecto {
+    font-family: FiraCode Nerd Font Propo;
+    text-align: left;
+    padding: 30px;
+    height: 325px;
+    background: linear-gradient(to bottom,
+            rgba(255, 255, 255, 0.2) 0%,
+            rgba(255, 255, 255, 0.9) 20%,
+            rgba(255, 255, 255, 1) 40%);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.marcoproyecto {
+    text-align: center;
+    padding: 10px;
+    width: 30%;
+    height: 388px;
+    background: rgb(255, 255, 255), ;
+    backdrop-filter: blur(20px);
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.tdestacado {
+    text-align: left;
+    padding: 30px;
+    background: linear-gradient(to bottom,
+            rgba(255, 255, 255, 0.2) 0%,
+            rgba(255, 255, 255, 0.9) 20%,
+            rgba(255, 255, 255, 1) 40%);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.mdestacado {
+    text-align: center;
+    padding: 10px;
+    width: 85%;
+    background: rgb(255, 255, 255), ;
+    backdrop-filter: blur(20px);
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+.mtitulo1 {
+    margin-bottom: 30px;
+    text-align: center;
+    padding: 8px;
+    width: 45%;
+    height: 30px;
+    background: rgb(255, 255, 255), ;
+    backdrop-filter: blur(20px);
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.ttitulo1 {
+    text-align: center;
+    background: linear-gradient(to bottom,
+            rgba(255, 255, 255, 0.9) 20%,
+            rgba(255, 255, 255, 1) 40%);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.ttitulo1 h3 {
+    padding: auto;
+    margin: 4px;
+}
+
+
+.niveles {
+    width: 100%;
+    display: flex;
+}
+
+.card {
+    position: relative;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.5s;
+}
+
+.overlay {
+    position: absolute;
+    text-align: center;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 0px;
+    background: rgba(17, 37, 84, 1);
+    color: white;
+    padding: 5px;
+    transition: 0.5s ease;
+}
+
+.overlay h3 {
+    font-size: 2rem;
+}
+
+.info {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: 0.5s;
+}
+
+.info p {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 25px;
+}
+
+.info a {
+    color: rgb(255, 255, 255);
+    border: solid;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+    transition: 0.5s;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.info a:hover {
+    color: black;
+    background-color: white;
+
+}
+
+.card:hover .overlay {
+    height: 100%;
+    background: rgba(17, 37, 84, 1);
+}
+
+.card:hover .info {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    transition: 0.5s;
+    
+}
+
+a:hover{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.mtitulo2:hover{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.9);
+}
+
+.mtitulo2 {
+    margin-bottom: 30px;
+    text-align: center;
+    padding: 8px;
+    width: 100%;
+    height: 30px;
+    background: rgb(255, 255, 255), ;
+    backdrop-filter: blur(20px);
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    transition: 0.5s;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.rowtitulo {
+    height: 40px;
+    width: 100%;
+    text-align: center;
+    justify-content: space-between;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.lmtitulo1 {
+    margin-bottom: 30px;
+    text-align: center;
+    padding: 1px;
+    width: 40px;
+    height: 40px;
+    background: rgb(255, 255, 255), ;
+    backdrop-filter: blur(20px);
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    margin: 0px 5px;
+}
+
+.lttitulo1 {
+    text-align: center;
+    background: linear-gradient(to bottom,
+            rgba(255, 255, 255, 0.9) 20%,
+            rgba(255, 255, 255, 1) 40%);
+    backdrop-filter: blur(10px);
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    margin: 0px;
+    padding: 0px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.lttitulo1 p{
+   margin: 0px;
+    padding: 0px; 
+}
+
+.ctitulo1{
+    height: auto;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+button:hover{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.9);
+}
+
+button {
+    font-family: FiraCode Nerd Font Propo;
+    margin-bottom: 30px;
+    text-align: center;
+    padding: 8px;
+    width: 45%;
+    height: 30px;
+    background: rgb(255, 255, 255), ;
+    backdrop-filter: blur(20px);
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    transition: 0.5s;
+}
